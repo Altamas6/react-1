@@ -1,1 +1,15 @@
+Q.1- What is React?
+Ans- React is a JavaScript library for building user interfaces.
+
+Q.2- Who made React?
+Ans- React was created by Jordan Walke, a software engineer at Facebook.
+
+Q.3- What is Babel?
+Ans- Babel is a toolchain that is mainly used to convert ECMAScript 2015+ code into a backward-compatible version of JavaScript in current and older browsers or environments.
+
+Q.4- How does Babel convert HTML code in React into valid code?
+Ans- Babel converts HTML code into valid code by using the JSX code and converter.
+
+Q.5- What is ReactDOM used for? Write an example.
+Ans- 
 
