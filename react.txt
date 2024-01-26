@@ -5,11 +5,50 @@ Q.2- Who made React?
 Ans- React was created by Jordan Walke, a software engineer at Facebook.
 
 Q.3- What is Babel?
-Ans- Babel is a toolchain that is mainly used to convert ECMAScript 2015+ code into a backward-compatible version of JavaScript in current and older browsers or environments.
+Ans- Babel is a toolchain that is mainly used to convert ECMAScript 2015+ code into a backward-compatible version of JavaScript in 
+     current and older browsers or environments.
 
 Q.4- How does Babel convert HTML code in React into valid code?
 Ans- Babel converts HTML code into valid code by using the JSX code and converter.
 
 Q.5- What is ReactDOM used for? Write an example.
-Ans- 
+Ans- ReactDOM is used to render components and elements on the web. It is a part of the React library used to create user interfaces and 
+     dynamic web applications, as well as reusable and composable components that can be used in different applications.
+     EXAMPLE------>
+     // Import necessary modules from React and ReactDOM
+        import React from 'react';
+        import ReactDOM from 'react-dom';
+     // Define a simple React component
+        const MyComponent = () => {
+        return <h1>Hello, React!</h1>;
+        };
+     // Use ReactDOM to render the component into the HTML document
+        ReactDOM.render(<MyComponent />, document.getElementById('root'));
+
+Q.6- What are the packages that you need to import for React to work with?
+Ans- To work with React, you typically need to import the following packages:
+     1. React: The core library for building user interfaces with React.
+     2. ReactDOM: The package responsible for rendering React components into the DOM.
+     These two are the essential imports. Depending on your project and its complexity, you might also need additional packages.
+
+Q.7- How do you add react to a web application?
+Ans- Step 1: Add a DOM Container to the HTML.
+     Step 2: Add the Script Tags.
+     Step 3: Create a React Component.
+
+Q.8- What is React.createElement?
+Ans- React.createElement is a function provided by React to create React elements. 
+
+Q.9- What are the three properties that createElement accepts?
+Ans- The React.createElement function accepts three properties as arguments:
+     1. Type (string or component)
+     2. Props (Object)
+     3. Children (Any).
+
+Q.10- What is the meaning of render and root?
+Ans- 1. Render:
+        In React, "render" refers to the process of generating the UI representation of a React component.
+     2. Root:
+        In the context of a React application, the "root" typically refers to the HTML element where the top-level React component is 
+        mounted.
 
